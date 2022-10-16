@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My Website
+title: Sean Chien
 
 # Your name to show in the footer
 author: Sean Chien
@@ -21,11 +21,11 @@ author: Sean Chien
 
 navbar-links:
   About Me: "aboutme"
-  Research:
+  Research: "research"
   Resources:
     - Teaching: 
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Contact: 
+  Contact: "contact"
 
 ################
 # --- Logo --- #
@@ -126,14 +126,14 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "#800000"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
+footer-col: "#800000"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
