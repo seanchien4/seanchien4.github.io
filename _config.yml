@@ -25,6 +25,7 @@ navbar-links:
   Resources:
     - Teaching: 
     - Learn markdown: "https://www.markdowntutorial.com/"
+  CV/Resume: 'cv/resume'
   Contact: "contact"
 
 ################
