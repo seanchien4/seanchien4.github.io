@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Resources:
-    - Teaching: 
+    - Teaching: "teaching"
     - Learn markdown: "https://www.markdowntutorial.com/"
   CV/Resume: "cvresume"
   Contact: "contact"
@@ -56,8 +56,8 @@ social-network-links:
   facebook: deanattali
   github: daattali
   twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+#  patreon: DeanAttali
+#youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -92,11 +92,11 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+#  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "Sean Chien"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
