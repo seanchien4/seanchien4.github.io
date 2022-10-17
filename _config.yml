@@ -26,7 +26,7 @@ navbar-links:
     - Teaching: "teaching"
     - Learn markdown: "https://www.markdowntutorial.com/"
   CV/Resume: "cvresume"
-  Picture: "pic"
+  Picture: "picture"
   Contact: "contact"
 
 ################
