@@ -5,5 +5,5 @@ subtitle: Sean's picture
 ---
 <p>
 <img src="/assets/img/IMG_0563.jpeg" alt="stag" width="200"/>
-    <em>Stag beetle</em>
+<em>Stag beetle</em>
 </p>
