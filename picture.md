@@ -7,7 +7,7 @@ subtitle: Sean's picture
 
 <p>
 
-<img src="/assets/img/IMG_0563.jpeg" alt="stag" width="200"/><em>Stag beetle</em>
+<img src="/assets/img/IMG_0563.jpeg" alt="stag" /><em>Stag beetle</em>
 
 <img src="/assets/img/picture/IMG_1216.jpg" alt="stag" width="200"/>
 
