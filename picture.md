@@ -11,9 +11,4 @@ subtitle: Sean's picture
 <img src="/assets/img/picture/IMG_2341.jpg" alt="stag" width="200"/>
 <img src="/assets/img/picture/IMG_3501.jpg" alt="stag" width="200"/>
 <img src="/assets/img/picture/IMG_3520.jpg" alt="stag" width="200"/>
-
-
-
-
-
 </p>
