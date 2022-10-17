@@ -14,4 +14,4 @@ What else do you need?
 
 ### My story
 
-To be honest, I'm still building this website now. It will take **awhile**. Please be patience!
+To be honest, I'm still building this website. It will take **awhile**. Please be patience!
