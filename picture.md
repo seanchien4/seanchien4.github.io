@@ -3,6 +3,4 @@ layout: page
 title: Pictures
 subtitle: Sean's picture
 ---
-<figure>
-    <img src="/assets/img/IMG_0563.jpeg" alt="stag" width="200"/>
-</figure>
+<img src="/assets/img/IMG_0563.jpeg" alt="stag" width="200"/>
