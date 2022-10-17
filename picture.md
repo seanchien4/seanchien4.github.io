@@ -3,11 +3,10 @@ layout: page
 title: Pictures
 subtitle: Sean's picture
 ---
-![stag beetle](./favicon-196x196.png =200x)
 
 <p>
 
-<img src="/assets/img/IMG_0563.jpeg" alt="stag" /><em>Stag beetle</em>
+<img src="/assets/img/IMG_0563.jpeg" alt="stag" width="33%"/><em>Stag beetle</em>
 
 <img src="/assets/img/picture/IMG_1216.jpg" alt="stag" width="200"/>
 
