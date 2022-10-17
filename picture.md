@@ -3,7 +3,7 @@ layout: page
 title: Pictures
 subtitle: Sean's picture
 ---
-![stag beetle](./assets/img/IMG_0563.jpeg =200x)
+![stag beetle](./favicon-196x196.png =200x)
 
 <p>
 
