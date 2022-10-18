@@ -24,4 +24,4 @@ subtitle: Sean's picture
 <img src="/assets/img/picture/IMG_3520.jpg" alt="stag" width="200"/>
 </p>
 ["/assets/img/picture/IMG_3501.jpg" : "IMG_3501"]
-
+["/assets/img/picture/IMG_3501.jpg"]
