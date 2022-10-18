@@ -15,7 +15,7 @@ subtitle: Sean's picture
 </p>
 <em>Wasp</em>
 <p>
-<img src="/assets/img/picture/IMG_1312.jpg" alt="stag" width="400"/><em>BirdTiger Beetle</em>
+<img src="/assets/img/picture/IMG_1312.jpg" alt="stag" width="400"/><em>Tiger Beetle</em>
 
 <img src="/assets/img/picture/IMG_2341.jpg" alt="stag" width="200"/>
 
