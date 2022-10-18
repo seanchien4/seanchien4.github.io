@@ -25,8 +25,6 @@ subtitle: Sean's picture
 <img src="/assets/img/picture/IMG_3520.jpg" alt="stag" width="200"/>
 </p>
 
-![stag](/assets/img/IMG_0563.jpeg) Stag beetle
-
-![stag](/assets/img/picture/IMG_1216.jpg) Wasp
+![stag](/assets/img/IMG_0563.jpeg =200x) Stag beetle ![stag](/assets/img/picture/IMG_1216.jpg =200x) Wasp
 
 
