@@ -28,7 +28,6 @@ navbar-links:
   CV/Resume: "cvresume"
   Picture: "picture"
     - Photography: "photography"
-    - photolink: "photography.html"
   Contact: "contact"
 
 ################
