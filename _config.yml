@@ -24,7 +24,7 @@ navbar-links:
   Research: "research"
   Resources:
     - Teaching: "teaching"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+      - BIOL111: "biol111"
   CV/Resume: "cvresume"
   Picture: "picture"
   Contact: "contact"

@@ -20,6 +20,26 @@ subtitle: Sean's picture
     ** Content C ***
 </div>
 
+function filterContent() {
+    var user = document.getElementById("myDropdown").value;
+    var contentA = document.getElementById("contentA");
+    var contentB = document.getElementById("contentB");
+    var contentC = document.getElementById("contentC");
+    if(user=="A") {
+        contentA.style.display="block";
+        contentB.style.display="block";
+        contentC.style.display="block";
+    } else if (user=="B") {
+        contentA.style.display="none";
+        contentB.style.display="block";
+        contentC.style.display="block";
+    } else if (user=="C") {
+        contentA.style.display="none";
+        contentB.style.display="none";
+        contentC.style.display="block";
+    }
+}
+
 
 <figure>
     <img src="/assets/img/IMG_0563.jpeg" alt="stag" width="200"/>
