@@ -24,7 +24,7 @@ navbar-links:
   Research: "research"
   Resources:
     - Teaching: "teaching"
-      - BIOL111: "biol111"
+    - BIOL111: "biol111"
   CV/Resume: "cvresume"
   Picture: "picture"
   Contact: "contact"
