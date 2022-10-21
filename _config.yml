@@ -28,6 +28,7 @@ navbar-links:
   CV/Resume: "cvresume"
   Picture: "picture"
   Contact: "contact"
+  Test: "test"
 
 ################
 # --- Logo --- #
@@ -155,8 +156,8 @@ footer-hover-col: "#0085A1"
 #  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
-#site-js:
-#  - "/assets/js/custom-script.js"
+site-js:
+  - "/assets/js/test.js"
 
 #################################
 # --- Web Analytics Section --- #
