@@ -3,44 +3,6 @@ layout: page
 title: Pictures
 subtitle: Sean's picture
 ---
-
-<select id="myDropdown" onchange="filterContent();">
-    <option value="A">All content</option>
-    <option value="B">Some content</option>
-    <option value="C">Little content</option>
-</select>
-
-<div id="contentA">
-    ** Content A ***
-</div>
-<div id="contentB">
-    ** Content B ***
-</div>
-<div id="contentC">
-    ** Content C ***
-</div>
-
-function filterContent() {
-    var user = document.getElementById("myDropdown").value;
-    var contentA = document.getElementById("contentA");
-    var contentB = document.getElementById("contentB");
-    var contentC = document.getElementById("contentC");
-    if(user=="A") {
-        contentA.style.display="block";
-        contentB.style.display="block";
-        contentC.style.display="block";
-    } else if (user=="B") {
-        contentA.style.display="none";
-        contentB.style.display="block";
-        contentC.style.display="block";
-    } else if (user=="C") {
-        contentA.style.display="none";
-        contentB.style.display="none";
-        contentC.style.display="block";
-    }
-}
-
-
 <figure>
     <img src="/assets/img/IMG_0563.jpeg" alt="stag" width="200"/>
         <figcaption>Stag beetle</figcaption>
