@@ -26,7 +26,7 @@ h1 {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 10px;
+  padding: 2px;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -42,8 +42,8 @@ h1 {
   clear: both;
 }
 /* Content */
-.content {
-/*background-color: white; 
+/*.content {
+background-color: white; 
   padding: 0px;
 } */
 
