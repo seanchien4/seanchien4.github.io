@@ -15,7 +15,7 @@
 
 /* The "show" class is added to the filtered elements */
 .show {
-  display: block;
+  display: none;
 }
 
 /* Style the buttons */
