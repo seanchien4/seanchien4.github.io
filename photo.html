@@ -7,50 +7,54 @@ css: /assets/css/photo.css
 
 ---
 <!-- Control buttons -->
-<div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-    <button class="btn" onclick="filterSelection('life')"> Life</button>
-    <button class="btn" onclick="filterSelection('beetles')"> Beetles</button>
-    <button class="btn" onclick="filterSelection('photography')"> Photography</button>
-  </div>
-  
-  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-  <div class="container">
-    <div class="filterDiv life">
-      <figure>
-        <div class="row">
-            <div class="column">
-                <img src="/assets/img/picture/IMG_4652.JPG" alt="Sean" width="300" >
-                    <figcaption>An entomologist</figcaption>
-            </div>
-          
-            <div class="column">
-              <img src="/assets/img/picture/IMG_2657.jpg" alt="fish" width="300">
-              <figcaption>A fisherman</figcaption>
-            </div>
-          </div>
-        </figure>
-    </div>
-    <div class="filterDiv beetles">
-      <figure>
-        <div class="row">
-          <div class="column">
-        <img src="/assets/img/IMG_0563.jpeg" alt="stag" width="300"/>
-            <figcaption>Stag beetle</figcaption>
-          </div>
-        </div>
-    <figurep>
-    </figure>
-    </div>
-    <div class="filterDiv photography">
-
-    </div>
-    <div class="filterDiv beetles photography">
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="/assets/img/picture/IMG_4652.JPG" alt="Sean" width="300" >
+        <figcaption>An entomologist</figcaption></span></div>
+      <div class="image" data-name="headphone"><span><img src="/assets/img/picture/IMG_2657.jpg" alt="fish" width="300">
+        <figcaption>A fisherman</figcaption></span></div>
+      <div class="image" data-name="camera"><span><img src="images/camera-1.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="images/shoe-1.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="images/headphone-2.jpg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="images/watch-1.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="images/shoe-2.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="images/camera-2.jpg" alt=""></span></div>
     </div>
   </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+  <script src="script.js"></script>
+</body>
+</html>
 
-  
 
 <p>
 <img src="/assets/img/picture/IMG_1312.jpg" alt="stag" width="400"/><em>Tiger Beetle</em>
