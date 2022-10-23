@@ -6,57 +6,83 @@ js: /assets/js/photo.js
 css: /assets/css/photo.css
 
 ---
-<!-- Control buttons -->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filterable Image Gallery | CodingNepal</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-</head>
-<body>
-  <div class="wrapper">
-    <!-- filter Items -->
-    <nav>
-      <div class="items">
-        <span class="item active" data-name="all">All</span>
-        <span class="item" data-name="bag">Bag</span>
-        <span class="item" data-name="shoe">Shoe</span>
-        <span class="item" data-name="watch">Watch</span>
-        <span class="item" data-name="camera">Camera</span>
-        <span class="item" data-name="headphone">Headphone</span>
-      </div>
-    </nav>
-    <!-- filter Images -->
-    <div class="gallery">
-      <div class="image" data-name="bag">
-        <span>
-          <img src="/assets/img/picture/IMG_4652.JPG" alt="Sean" width="300" >
-            <figcaption>An entomologist</figcaption>
-          </span>
-        </div>
-      <div class="image" data-name="headphone">
-        <span>
-          <img src="/assets/img/picture/IMG_2657.jpg" alt="fish" width="300">
-            <figcaption>A fisherman</figcaption>
-          </span>
-        </div>
-    </div>
-  </div>
-  <!-- fullscreen img preview box -->
-  <div class="preview-box">
-    <div class="details">
-      <span class="title">Image Category: <p></p></span>
-      <span class="icon fas fa-times"></span>
-    </div>
-    <div class="image-box"><img src="" alt=""></div>
-  </div>
-  <div class="shadow"></div>
-  <script src="script.js"></script>
-</body>
-</html>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div>
 
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/assets/img/picture/IMG_4652.JPG" alt="People" style= "width:100%" >
+      <h4>Girl</h4>
+      <p>An entomologist</p>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/assets/img/picture/IMG_2657.jpg" alt="People" width="300">
+      <h4>Man</h4>
+      <p>A fisherman</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
 
 <p>
 <img src="/assets/img/picture/IMG_1312.jpg" alt="stag" width="400"/><em>Tiger Beetle</em>
