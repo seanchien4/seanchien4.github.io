@@ -43,8 +43,8 @@ h1 {
 }
 /* Content */
 .content {
-  background-color: white;
-  padding: 1px;
+/*background-color: white; */
+  padding: 0px;
 }
 
 /* The "show" class is added to the filtered elements */
