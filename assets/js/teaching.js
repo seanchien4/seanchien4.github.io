@@ -10,7 +10,7 @@ function filterContent() {
   } else if (user=="B") {
       contentA.style.display="none";
       contentB.style.display="block";
-      contentC.style.display="block";
+      contentC.style.display="none";
   } else if (user=="C") {
       contentA.style.display="none";
       contentB.style.display="none";
