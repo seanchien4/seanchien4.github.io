@@ -13,7 +13,7 @@ My name is Sean Chien, and
 - I'm a beetle enthusiasm
 - I'm addicted to fishing
 
-What else do you need?
+What else do you want to know?
 
 ### My story
 
