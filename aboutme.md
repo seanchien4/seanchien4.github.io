@@ -3,8 +3,10 @@ layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
 ---
-
+<p>
 <img src="/assets/img/picture/IMG_4937.jpg" alt="Sean" width="300">
+</p>
+
 My name is Sean Chien, and 
 
 - I love science
