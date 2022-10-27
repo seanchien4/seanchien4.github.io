@@ -4,7 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-![Sean](/assets/img/picture/IMG_4937.jpg =x250)
+<img  style="float: left;" src="/assets/img/picture/IMG_4937.jpg" alt="Sean" width="250"/>
 
 My name is Sean Chien, and 
 
