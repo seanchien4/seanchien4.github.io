@@ -4,7 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-<img  style="float: left;" src="/assets/img/picture/IMG_4937.jpg" alt="Sean" width="250"/>
+<img  style="float: left;" src="/assets/img/picture/IMG_4937.jpg" alt="Sean" width="250" hspace="10" vspace="15"/>
 
 My name is Sean Chien, and 
 
