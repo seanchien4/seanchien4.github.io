@@ -20,7 +20,7 @@ author: Sean Chien
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About: "about"
   Research: "research"
   Resources:
     - Teaching: "teaching"
