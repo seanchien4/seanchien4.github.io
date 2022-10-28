@@ -3,8 +3,13 @@ layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
 ---
+<figure>
+    <img  style="float: left;" src="/assets/img/picture/IMG_4937.jpg" alt="Sean" width="250" hspace="10" vspace="15"/>
+    <figcaption>Sean Chien</figcaption>
 
-<img  style="float: left;" src="/assets/img/picture/IMG_4937.jpg" alt="Sean" width="250" hspace="10" vspace="15"/>
+</figure>
+
+
 
 My name is Sean Chien, and 
 
