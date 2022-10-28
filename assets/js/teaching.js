@@ -5,8 +5,8 @@ function filterContent() {
   var contentC = document.getElementById("contentC");
   if(user=="A") {
       contentA.style.display="block";
-      contentB.style.display="block";
-      contentC.style.display="block";
+      contentB.style.display="none";
+      contentC.style.display="none";
   } else if (user=="B") {
       contentA.style.display="none";
       contentB.style.display="block";
