@@ -264,6 +264,18 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.researchgate -%}
+  <li class="list-inline-item">
+    <a href="https://www.researchgate.net/profile/{{ site.social-network-links.researchgate }}" title="Research Gate">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Research Gate</span>
+    </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.patreon -%}
   <li class="list-inline-item">
     <a href="https://patreon.com/{{ site.social-network-links.patreon }}" title="Patreon">
