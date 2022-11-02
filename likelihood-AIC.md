@@ -4,12 +4,6 @@ title: Likelihood and AIC model selection
 subtitle: Sean's note
 ---
 
----
-title: "Likelihood and AIC model selection"
-output: html_document
-date: "2022-11-02"
----
-
 ### Likelihood and AIC model selection 
 
 First, we need to understand what model selection is. Model selection is a process that to choose one of the models which addresses the problem the best.  
