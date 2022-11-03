@@ -24,6 +24,7 @@ navbar-links:
   Research: "research"
   Resources:
     - Teaching: "teaching"
+    - Notes: "notes"
   CV/Resume: "cvresume"
   Photos: "photo"
 
