@@ -1730,8 +1730,8 @@ expression.</h3>
 </tr>
 </tbody>
 </table>
-<div id="htmlwidget-ee83c388e1814dcae3d7" style="width:672px;height:100px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ee83c388e1814dcae3d7">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = LR]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"Step 1. Dilute E. coli\"]\n  rec2 [label = \"Step 2. Lyse E. coli\"]\n  rec3 [label =  \"Step 3. Transfer to cuvettes have Z buffer\"]\n  rec4 [label = \"Step 4. Add ONPG\"]\n  rec5 [label = \"Step 5. Data\"]\n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4 -> rec5 \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-bcade58be275c97124b7" style="width:672px;height:100px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-bcade58be275c97124b7">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = LR]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"Step 1. Dilute E. coli\"]\n  rec2 [label = \"Step 2. Lyse E. coli\"]\n  rec3 [label =  \"Step 3. Transfer to cuvettes have Z buffer\"]\n  rec4 [label = \"Step 4. Add ONPG\"]\n  rec5 [label = \"Step 5. Data\"]\n  # edge definitions with the node IDs\n  rec1 -> rec2 \n  rec2 -> rec3[label = \"Done lysing, place on ice\"] \n  rec3 -> rec4 -> rec5 \n  \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <ol style="list-style-type: decimal">
 <li><p>Dilute the E. coli culture 1:5 by pipetting 100 µL of E. coli
 culture into a microcentrifuge tube. Add 400 µL of distilled water,
@@ -1792,16 +1792,20 @@ inserting the cuvette into the instrument.</li>
 <h3>Lab Activity 2: What are the effects of adding sugars to the
 β-galactosidase assay?</h3>
 <ol style="list-style-type: decimal">
-<li><p><em>Important considerations: once cultures are mixed with sugar
-in step 2, the conditions have changed, so gene expression will start to
+<li><em>Important considerations: once cultures are mixed with sugar in
+step 2, the conditions have changed, so gene expression will start to
 change. Therefore,</em> <strong><em>be prepared (tubes labeled and
 organized, etc.) to immediately begin lysing the cells.</em></strong>
 <em>You might consider measuring out all of your culture materials
 first, and then going back and adding the lactose or glucose. It should
 take less than 10 minutes from preparing the first culture in step 2 to
-beginning the lysis.</em></p></li>
-<li><p>Clearly label 8 microcentrifuge tubes to correspond with the
-reactions listed in Table 3 (two tubes per culture condition).</p>
+beginning the lysis.</em></li>
+</ol>
+<div id="htmlwidget-052bea745a6520831ee0" style="width:672px;height:100px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-052bea745a6520831ee0">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = LR]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"Step 1. Get ready\"]\n  rec2 [label = \"Step 2.1 Tube 1\"]\n  rec3 [label = \"Step 2.2 Tube 2\"]\n  rec4 [label = \"Step 2.3 10 ul tube 2 to tube 1\"]\n  rec5 [label = \"Step 3. Transfer to cuvettes have Z buffer\"]\n  rec6 [label = \"Step 4. Add ONPG\"]\n  rec7 [label = \"Step 5. Data\"]\n  \n\n  # edge definitions with the node IDs\n  rec1 -> rec2 \n  rec1 -> rec3  \n  rec1 -> rec4 \n  rec2 -> rec5 [label = \"Done lysing, place on ice\"]\n  rec5 -> rec6 -> rec7 \n  graph [nodesep = 0.1]\n  \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<ol start="2" style="list-style-type: decimal">
+<li>Clearly label 8 microcentrifuge tubes to correspond with the
+reactions listed in Table 3 (two tubes per culture condition).
 <ul>
 <li>1st microcentrifuge tubes for each reaction (Tube 1), pipet the
 <strong><em>TSB media</em></strong> and <strong><em>lysis
