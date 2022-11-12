@@ -25,8 +25,8 @@ navbar-links:
   Resources:
     - Teaching: "teaching"
     - Notes: "notes"
-  CV/Resume: "cvresume"
   Photos: "photo"
+  Contact: 'contact'
 
 ################
 # --- Logo --- #
