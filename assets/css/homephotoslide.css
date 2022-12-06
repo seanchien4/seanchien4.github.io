@@ -8,8 +8,8 @@ body {
     /* Styling the area of the slides */
     #slideshow {
     overflow: hidden;
-    height: 582px;
-    width: 728px;
+    height: 560px;
+    width: 700px;
     margin: 0 auto;
     }
     
@@ -17,8 +17,8 @@ body {
     with a fixed width and height */
     .slide {
     float: left;
-    height: 582px;
-    width: 728px;
+    height: 560px;
+    width: 700px;
     }
     
     /* Add animation to the slides */
@@ -26,7 +26,7 @@ body {
     
     /* Calculate the total width on the
     basis of number of slides */
-    width: calc(728px * 4);
+    width: calc(700px * 4);
     
     /* Specify the animation with the
     duration and speed */
@@ -62,15 +62,15 @@ body {
     }
     
     40% {
-        margin-left: calc(-728px * 1);
+        margin-left: calc(-700px * 1);
     }
     
     60% {
-        margin-left: calc(-728px * 2);
+        margin-left: calc(-700px * 2);
     }
     
     80% {
-        margin-left: calc(-728px * 3);
+        margin-left: calc(-700px * 3);
     }
     }
     
