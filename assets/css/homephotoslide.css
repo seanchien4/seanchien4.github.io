@@ -5,18 +5,19 @@ body {
     font-size: 50;
     }
     
-    /* Styling the area of the slides 
+    /* Styling the area of the slides */
     #slideshow {
     overflow: hidden;
     height: 510px;
     width: 728px;
     margin: 0 auto;
-    } */
+    }
     
     /* Style each of the sides
     with a fixed width and height */
     .slide {
     float: left;
+    height: 510px;
     width: 728px;
     }
     
