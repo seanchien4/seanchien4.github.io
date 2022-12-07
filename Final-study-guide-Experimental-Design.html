@@ -364,9 +364,144 @@ Design</h1>
 </div>
 
 
+<div id="terms" class="section level4">
+<h4>Terms</h4>
+<div id="p-value" class="section level5">
+<h5>p-value</h5>
+<p><em>the possibility of finding the observed, or more extreme,
+statistic when the null hypothesis is true.</em> ##### frequentist vs
+Bayesian approaches<br />
+<em>Frequentist inference is based on frequentist probability. It treats
+probability in equivalent term to frequency.</em> <em>The data is being
+used only from the current experiment.</em> <em>Some common type of
+frameworks:</em> <em>- p-value</em> <em>- confident interval</em> <em>-
+hypothesis testing</em></p>
+<p>_In Baysian approach, the probability expresses a degree of belive in
+an event. The <strong><em>prior</em></strong>, <em>which can be
+knowledge from previous experiments or personal belives, will be applied
+into the baysian inference.</em></p>
+</div>
+<div id="bayes-theorem" class="section level5">
+<h5>Bayes theorem</h5>
+<p><span class="math inline">\(P(A \mid B)=\frac{P(B \mid
+A)P(A)}{P(B)}\)</span></p>
+</div>
+<div id="reproducibility-crisis" class="section level5">
+<h5>reproducibility crisis</h5>
+<p><em>Refers to the ability of a researcher to duplicate the results of
+a prior study using the same materials as were used by the original
+investigators</em> <em>Solution: pre-registration, learn how to do
+statistic,</em></p>
+</div>
+<div id="statistic" class="section level5">
+<h5>statistic</h5>
+<p><em>Statistic are no substitute for common sense</em> <em>Ex:
+pressure to publish, p hacking, unethical researchers, small sample
+size, file drawer problem,</em> <em>p hacking: discarding data,
+faking,</em></p>
+</div>
+<div id="parameter" class="section level5">
+<h5>parameter</h5>
+<p><em>Population variables that we are trying to estimate</em></p>
+</div>
+<div id="continuous-variable" class="section level5">
+<h5>continuous variable</h5>
+<p><em>quantitative or measurment variables. ex: height, weight</em></p>
+</div>
+<div id="discrete-variable" class="section level5">
+<h5>discrete variable</h5>
+<p><em>Discrete variables are countable values. ex: race</em></p>
+</div>
+</div>
+<div id="experimental-vs-observational-studies" class="section level4">
+<h4>experimental vs observational studies</h4>
+<p><em>Experimental studies are ones where researchers introduce an
+intervention and study the effects. Experimental studies are usually
+randomized, meaning the subjects are grouped by chance.</em></p>
+<p><em>Observational studies are ones where researchers observe the
+effect of a risk factor, diagnostic test, treatment or other
+intervention without trying to change who is or isn’t exposed to
+it.</em></p>
+<div id="𝜇" class="section level5">
+<h5>𝜇</h5>
+<p><em>Population mean</em></p>
+</div>
+<div id="𝜎" class="section level5">
+<h5>𝜎</h5>
+<p><em>Population standard deviation</em></p>
+</div>
+<div id="𝑌" class="section level5">
+<h5>𝑌%</h5>
+<p><em>sample mean</em></p>
+</div>
+<div id="𝑠" class="section level5">
+<h5>𝑠</h5>
+<p><em>Sample standard deviation</em></p>
+</div>
+<div id="blinding" class="section level5">
+<h5>blinding</h5>
+<p><em>Blind: the subject does not know whether it is experimental or
+control subject</em> <em>Double blind: neither researcher nor subject
+know which subjects are experimental or control</em></p>
+</div>
+<div id="pseudoreplication" class="section level5">
+<h5>pseudoreplication</h5>
+<p><em>It happens when the apparent sample size is larger than true
+sample size</em></p>
+</div>
+<div id="biological-vs-technical-replicates" class="section level5">
+<h5>biological vs technical replicates</h5>
+<p><em>A biological replicate involves a new, independent test
+subject</em> <em>A technical replicate involves repeating same procedure
+on a new sample size from the same project</em></p>
+</div>
+<div id="outliers" class="section level5">
+<h5>outliers</h5>
+<p><em>In statistics, an outlier is a data point that differs
+significantly from other observations.</em></p>
+</div>
+<div id="confounding-variables" class="section level5">
+<h5>confounding variables</h5>
+<p><em>A confounding variable is a third variable that influences both
+the independent and dependent variables.</em></p>
+</div>
+<div id="common-faults-in-plots" class="section level5">
+<h5>common faults in plots</h5>
+</div>
+<div id="sample" class="section level5">
+<h5>sample</h5>
+<p><em>A subset of individuals drawn from a population</em></p>
+</div>
+<div id="population" class="section level5">
+<h5>population</h5>
+<p><em>Some sort of group of something</em></p>
+</div>
+<div id="transformation" class="section level5">
+<h5>transformation</h5>
+<p><em>transform your data to be close normal distributed in order to do
+statistical test.</em></p>
+</div>
+<div id="parametric" class="section level5">
+<h5>parametric</h5>
+<p><em>Parametric statistics are based on assumptions about the
+distribution of population from which the sample was taken.</em></p>
+</div>
+<div id="non-parametric" class="section level5">
+<h5>non-parametric</h5>
+<p><em>Nonparametric statistics are not based on assumptions, that is,
+the data can be collected from a sample that does not follow a specific
+distribution.</em></p>
+</div>
+<div id="mcmc" class="section level5">
+<h5>MCMC</h5>
+</div>
+</div>
+<div id="example-problems" class="section level4">
+<h4>Example problems</h4>
 <p>I set the seed to 33, so you can get the same results if there is
 sampling function.</p>
 <pre class="r"><code>set.seed(33)</code></pre>
+</div>
 <div id="r-skills-you-should-have" class="section level4">
 <h4>R skills you should have</h4>
 <div id="create-matrices-vectors-dataframes-and-lists" class="section level5">
@@ -537,7 +672,7 @@ chisq.test(dat)</code></pre>
 <h5>prcomp</h5>
 </div>
 </div>
-<div id="example-problems" class="section level4">
+<div id="example-problems-1" class="section level4">
 <h4>Example Problems</h4>
 <div id="suppose-you-are-studying-a-pair-of-cryptic-species.-in-your-area-5-of-individuals-are-species-a-and-95-of-individuals-are-species-b.-there-is-currently-no-genetic-assay-capable-of-telling-them-apart.-they-differ-however-in-the-frequency-of-a-rare-color-pattern.-species-a-has-the-rare-color-pattern-50-of-the-time-while-species-b-has-the-rare-color-pattern-only-2-of-the-time.-assume-these-numbers-are-known-with-certainty-from-many-years-of-field-research.-now-suppose-you-find-one-of-these-species-with-the-rare-color-pattern.-use-bayes-theorem-to-compute-the-probability-that-it-is-from-species-a." class="section level5">
 <h5>1. Suppose you are studying a pair of cryptic species. In your area
