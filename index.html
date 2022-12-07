@@ -3,32 +3,42 @@ layout: home
 title: Sean Chien
 subtitle: This is where I will tell my friends way too much about me
 css: /assets/css/homephotoslide.css
+js: /assets/js/homephotoslide.js
 ---
 This is a website about Sean Chien
-<html>
-<body>
-	
-	<!-- Define the slideshow container -->
-	<div id="slideshow">
-		<div class="slide-wrapper">
-			
-		<!-- Define each of the slides
-		and write the content -->
-		
-			<div class="slide">
-				<img src="/assets/img/photoslide/IMG_5597.jpg" class="img-fluid" alt="">
-			</div>
-			<div class="slide">
-				<img src="/assets/img/photoslide/IMG_5141.JPG" class="img-fluid" alt="">
-			</div>
-			<div class="slide">
-				<img src="/assets/img/photoslide/IMG_5599.jpg" class="img-fluid" alt="">
-			</div>
-			<div class="slide">
-				<img src="/assets/img/photoslide/IMG_5077.JPG" class="img-fluid" alt="">
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <img src="/assets/img/photoslide/IMG_5597.jpg" style="width:100%">
+	  <div class="text"></div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <img src="/assets/img/photoslide/IMG_5141.JPG" style="width:100%">
+	  <div class="text"></div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <img src="/assets/img/photoslide/IMG_5599.jpg" style="width:100%">
+	  <div class="text"></div>
+	</div>
+	<div class="mySlides fade">
+		<img src="/assets/img/photoslide/IMG_5077.JPG" style="width:100%">
+		<div class="text"></div>
+	  </div>
+  
+	<!-- Next and previous buttons -->
+	<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br> -->
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(4)"></span> 
+  </div>
