@@ -22,7 +22,4 @@ subtitle: just a test page
         .phoneContent {display:block;}
     }
     </style>
-    <div class="responsiveCal">
-    <div class="deskContent"><iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=1&showNav=1&showPrint=0&mode=WEEK&src=c2NoaWVuQHRhbXUuZWR1&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-      </div>
-    <div class="phoneContent"><iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=1&showNav=1&showPrint=0&mode=WEEK&src=c2NoaWVuQHRhbXUuZWR1&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe></div></div>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=1&showNav=1&showPrint=0&mode=WEEK&src=c2NoaWVuQHRhbXUuZWR1&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
