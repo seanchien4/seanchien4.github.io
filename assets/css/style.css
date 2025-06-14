@@ -152,6 +152,11 @@ body {
     padding: 1px 0;
 }
 
+.dark-section {
+  background-color: #000;
+  color: white;
+}
+
 .research-background
 {
     background-image: linear-gradient(to right, black,#212529);
