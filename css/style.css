@@ -16,9 +16,12 @@ body {
 }
 
 .container {
-    max-width: 100%;   /* Allows the content to span the whole browser */
-    padding: 0 40px;   /* Adjusts the gap from the very edge of the screen */
+    max-width: 1500px;   /* Limits the width of the text/content */
+    margin-left: 0;     /* Keeps the container anchored to the left */
+    margin-right: auto; /* Allows the empty space to stay on the right */
+    padding: 0 40px;    /* Keeps that side gap you liked */
 }
+
 
 /* ==========================================================================
    2. HEADER & NAVIGATION LINES (Fixes the Overlap)
