@@ -9,7 +9,7 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #000;
   background-color: #fff;
 }
@@ -72,7 +72,19 @@ nav a {
   overflow: auto;
 }
 
+/* ==========================================================================
+   RESEARCH
+   ========================================================================== */
 
+#publications p {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #e0e0e0;
+}
+
+#publications p:last-child {
+    border-bottom: none;
+}
 
 /* ==========================================================================
    BLOG INDEX
