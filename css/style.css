@@ -8,10 +8,14 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: 'VT323', monospace;
   line-height: 1.4;
   color: #000;
   background-color: #fff;
+  /* color: #00ff00; /* Neon green text */
+  /* background-color: #000000; /* Pure black background */
 }
 
 .container {
